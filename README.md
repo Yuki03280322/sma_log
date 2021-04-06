@@ -15,6 +15,8 @@
 
 ## friends table
 
+| Column             | Type       | Options        |
+| ------------------ | ---------- | ---------------|
 | id                 | bigint     | auto_increment |
 | name               | varchar    | null: false    |
 
@@ -24,6 +26,8 @@
 
 ## battles table
 
+| Column             | Type       | Options        |
+| ------------------ | ---------- | ---------------|
 | id                 | bigint     | auto_increment |
 | format             | varchar    | null: false    |
 | rule               | varchar    | null: false    |
@@ -42,6 +46,8 @@
 
 ## my_charas table
 
+| Column             | Type       | Options        |
+| ------------------ | ---------- | ---------------|
 | id                 | bigint     |                |
 | chara              | varchar    | null: false    |
 | url                | varchar    | null: false    |
@@ -51,6 +57,8 @@
 
 ## opponent_charas table
 
+| Column             | Type       | Options        |
+| ------------------ | ---------- | ---------------|
 | id                 | bigint     |                |
 | chara              | varchar    | null: false    |
 | url                | varchar    | null: false    |
